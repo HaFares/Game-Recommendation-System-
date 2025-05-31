@@ -638,7 +638,7 @@ elif page == "Recommendation System":
         <div style="display: flex; justify-content: center; gap: 10px; margin-top: 10px;">
             <span style="background: #e9f7fe; color: #0c7abf; padding: 5px 12px; border-radius: 20px;">🤖 AI-Powered</span>
             <span style="background: #e6f9ee; color: #0a8f4e; padding: 5px 12px; border-radius: 20px;">🎯 Personalized</span>
-            <span style="background: #f5e9ff; color: #1b2838; padding: 5px 12px; border-radius: 20px;">💎 4,000+ Games</span>
+            <span style="background: #f5e9ff; color: #1b2838; padding: 5px 12px; border-radius: 20px;">💎 3,000+ Games</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
