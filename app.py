@@ -114,7 +114,7 @@ if page == "Dashboard":
     # Load dataset
     @st.cache_data
     def load_data():
-        df = pd.read_csv(r"C:\Users\Otman-INFO\Desktop\Projet Web Mining\game_data_for_dashboard.csv")  # Replace with actual file path
+        df = pd.read_csv("game_data_for_dashboard.csv")  # Replace with actual file path
         return df
 
     df = load_data()
@@ -567,11 +567,11 @@ elif page == "Recommendation System":
     # --- Load Data and Model ---
     @st.cache_data
     def load_data():
-       df = pd.read_csv(r"C:\Users\Otman-INFO\Desktop\Projet Web Mining\games_data_recomendation.csv")
+       df = pd.read_csv("games_data_recomendation.csv")
        return df
     @st.cache_data 
     def load_similarity_matrix():
-        similarity_matrix = pickle.load(open(r"C:\Users\Otman-INFO\Desktop\Projet Web Mining\Model Content Based Filtering\similarity_finale.pkl", 'rb'))
+        similarity_matrix = pickle.load(open("similarity_finale.pkl", 'rb'))
         return similarity_matrix
     try:
         df = load_data()
@@ -835,7 +835,7 @@ elif page == "Chatbot":
         embeddings = initialize_embeddings()
         try:
             return FAISS.load_local(
-                r"C:\Users\Otman-INFO\Desktop\Projet Web Mining\Chatbot\faiss_index",
+                "faiss_index",
                 embeddings=embeddings,
                 allow_dangerous_deserialization=True
             )
