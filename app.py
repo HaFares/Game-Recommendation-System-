@@ -565,7 +565,7 @@ elif page == "Recommendation System":
     """, unsafe_allow_html=True)
 
     # --- Load Data and Model ---
-    @st.cache_data
+    st.cache_data.clear()
     def load_data():
        df = pd.read_csv("games_data_recomendation.csv")
        return df
