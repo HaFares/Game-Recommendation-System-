@@ -688,7 +688,7 @@ elif page == "Recommendation System":
                     if pd.notna(row.get("image")) and row["image"]:
                         st.image(row["image"], width=300, use_container_width=True)
                     else:
-                        st.markdown("📷 *No image available*")
+                        st.markdown("*No image available*")
                     
                     # Game title
                     st.markdown(f'<div class="game-title">{row["title"]}</div>', unsafe_allow_html=True)
@@ -717,10 +717,10 @@ elif page == "Recommendation System":
                     col_btn1, col_btn2 = st.columns(2)
                     with col_btn1:
                         if pd.notna(row.get("Link")):
-                            st.link_button("🚀 View on Steam", row["Link"], use_container_width=True)
+                            st.link_button("View on Steam", row["Link"], use_container_width=True)
                     
                     with col_btn2:
-                        if st.button("📖 Full Details", key=f"details_{index}", use_container_width=True):
+                        if st.button("Full Details", key=f"details_{index}", use_container_width=True):
                             st.session_state.selected_game_details = row.to_dict()
                             st.session_state.show_details_dialog = True
                             st.rerun()
@@ -733,7 +733,7 @@ elif page == "Recommendation System":
     if st.session_state.show_details_dialog and st.session_state.selected_game_details:
         game = st.session_state.selected_game_details
 
-        @st.dialog(f"🎮 Game Details: {game['title']}")
+        @st.dialog(f"Game Details: {game['title']}")
         def show_game_details(game_details):
             # Header with image
             col1, col2 = st.columns([1, 2])
@@ -757,7 +757,7 @@ elif page == "Recommendation System":
             st.markdown("---")
             
             # Description
-            st.subheader("📖 Game Overview")
+            st.subheader("Game Overview")
             description = game_details.get("about_game", 'N/A')
             if not description or pd.isna(description) or description == "N/A":
                 description = game_details.get('Game Description', 'This game offers an exciting gaming experience with unique features and engaging gameplay mechanics that will keep you entertained for hours.')
@@ -770,26 +770,26 @@ elif page == "Recommendation System":
             
             # Additional metrics
             st.markdown("---")
-            st.subheader("💰 Game Economics & Details")
+            st.subheader("Game Economics & Details")
             col1, col2, col3 = st.columns(3)
             
             with col1:
                 price_val = game_details.get("Original Price")
                 if pd.notna(price_val):
                     if price_val == 0:
-                        st.metric("💎 Price", "FREE", delta="Best Value!", delta_color="normal")
+                        st.metric("Price", "FREE", delta="Best Value!", delta_color="normal")
                     else:
-                        st.metric("💎 Price", f"${price_val:.2f}")
+                        st.metric("Price", f"${price_val:.2f}")
                 else:
-                    st.metric("💎 Price", "Contact Developer")
+                    st.metric("Price", "Contact Developer")
             
             with col2:
                 discount_val = game_details.get('Discount %', 0)
                 if discount_val > 0:
                     savings = game_details.get('Original Price', 0) * discount_val / 100
-                    st.metric("🏷️ Discount", f"{discount_val:.1f}%", delta=f"Save ${savings:.2f}", delta_color="normal")
+                    st.metric("Discount", f"{discount_val:.1f}%", delta=f"Save ${savings:.2f}", delta_color="normal")
                 else:
-                    st.metric("🏷️ Discount", "Full Price")
+                    st.metric("Discount", "Full Price")
             
             with col3:
                 release_date = game_details.get('Release Date', 'TBA')
@@ -803,10 +803,10 @@ elif page == "Recommendation System":
             col1, col2 = st.columns([1, 1])
             with col1:
                 if pd.notna(game_details.get("Link")):
-                    st.link_button("🎮 Explore on Steam", game_details["Link"], use_container_width=True)
+                    st.link_button("Explore on Steam", game_details["Link"], use_container_width=True)
             
             with col2:
-                if st.button("✖️ Close Details", key="close_dialog", use_container_width=True):
+                if st.button("Close Details", key="close_dialog", use_container_width=True):
                     st.session_state.show_details_dialog = False
                     st.session_state.selected_game_details = None
                     st.rerun()
