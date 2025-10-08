@@ -63,8 +63,8 @@ A comprehensive web application built with Streamlit that provides interactive a
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/steam-games-analytics.git
-cd steam-games-analytics
+git https://github.com/HaFares/Game-Recommendation-System-.git
+cd Game-Recommendation-System
 ```
 
 2. **Create a virtual environment**
