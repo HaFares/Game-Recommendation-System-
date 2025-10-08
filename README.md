@@ -5,7 +5,20 @@ A comprehensive web application built with Streamlit that provides interactive a
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.45.1-FF4B4B.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+## 📸 Screenshots
 
+### Dashboard
+<img width="1913" height="835" alt="Capture d'écran 2025-10-08 213546" src="https://github.com/user-attachments/assets/ac50485c-7a87-4fd6-a12b-4343ce89fe2b" />
+<img width="1919" height="826" alt="Capture d'écran 2025-10-08 213608" src="https://github.com/user-attachments/assets/8ef49971-678b-4709-8d12-2ebe36b46efa" />
+
+
+### Recommendation System
+<img width="1916" height="816" alt="Capture d'écran 2025-10-08 213741" src="https://github.com/user-attachments/assets/116e61d7-0b1c-4e57-8327-120bab75e412" />
+
+### AI Chatbot
+<img width="1877" height="871" alt="Capture d'écran 2025-05-30 183347" src="https://github.com/user-attachments/assets/c0c0ee14-bd8d-45f9-87b2-53e79140ba05" />
+
+---
 ## ✨ Features
 
 ### 📊 Interactive Dashboard
@@ -158,20 +171,6 @@ The application uses Steam game data including:
 - Genre classifications
 - Game images and Steam store links
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Steam for providing the gaming data
@@ -179,36 +178,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - HuggingFace for embedding models
 - The Streamlit team for the amazing framework
 - The open-source community for various libraries used
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/yourusername/steam-games-analytics](https://github.com/yourusername/steam-games-analytics)
-
-## 🔮 Future Enhancements
-
-- [ ] User authentication and personalized profiles
-- [ ] Save favorite games and recommendations
-- [ ] Advanced filtering options (by genre, price range, platform)
-- [ ] Integration with Steam API for real-time data
-- [ ] Collaborative filtering recommendations
-- [ ] Game comparison features
-- [ ] Export analytics reports
-- [ ] Multi-language support
-
-## 📸 Screenshots
-
-### Dashboard
-![Dashboard](assets/dashboard.png)
-
-### Recommendation System
-![Recommendations](assets/recommendations.png)
-
-### AI Chatbot
-![Chatbot](assets/chatbot.png)
-
----
 
 ⭐ If you find this project useful, please consider giving it a star!
 
