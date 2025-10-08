@@ -5,20 +5,7 @@ A comprehensive web application built with Streamlit that provides interactive a
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.45.1-FF4B4B.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-## 📸 Screenshots
 
-### Dashboard
-<img width="1913" height="835" alt="Capture d'écran 2025-10-08 213546" src="https://github.com/user-attachments/assets/ac50485c-7a87-4fd6-a12b-4343ce89fe2b" />
-<img width="1919" height="826" alt="Capture d'écran 2025-10-08 213608" src="https://github.com/user-attachments/assets/8ef49971-678b-4709-8d12-2ebe36b46efa" />
-
-
-### Recommendation System
-<img width="1916" height="816" alt="Capture d'écran 2025-10-08 213741" src="https://github.com/user-attachments/assets/116e61d7-0b1c-4e57-8327-120bab75e412" />
-
-### AI Chatbot
-<img width="1877" height="871" alt="Capture d'écran 2025-05-30 183347" src="https://github.com/user-attachments/assets/c0c0ee14-bd8d-45f9-87b2-53e79140ba05" />
-
----
 ## ✨ Features
 
 ### 📊 Interactive Dashboard
@@ -50,6 +37,21 @@ A comprehensive web application built with Streamlit that provides interactive a
 - **Context-Aware**: Remembers chat history for coherent dialogues
 - **Rich Responses**: Detailed game information and suggestions
 
+## 📸 Screenshots
+
+### Dashboard
+<img width="1913" height="835" alt="Capture d'écran 2025-10-08 213546" src="https://github.com/user-attachments/assets/ac50485c-7a87-4fd6-a12b-4343ce89fe2b" />
+<img width="1919" height="826" alt="Capture d'écran 2025-10-08 213608" src="https://github.com/user-attachments/assets/8ef49971-678b-4709-8d12-2ebe36b46efa" />
+
+
+### Recommendation System
+<img width="1916" height="816" alt="Capture d'écran 2025-10-08 213741" src="https://github.com/user-attachments/assets/116e61d7-0b1c-4e57-8327-120bab75e412" />
+<img width="1910" height="841" alt="Capture d'écran 2025-05-30 183931" src="https://github.com/user-attachments/assets/65aa0407-6d1a-4e1c-bec5-07d55f524499" />
+
+### AI Chatbot
+<img width="1877" height="871" alt="Capture d'écran 2025-05-30 183347" src="https://github.com/user-attachments/assets/c0c0ee14-bd8d-45f9-87b2-53e79140ba05" />
+
+---
 ## 🚀 Installation
 
 ### Prerequisites
